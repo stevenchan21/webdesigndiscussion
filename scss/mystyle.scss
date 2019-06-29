@@ -409,6 +409,9 @@ table {
         margin-left: 0px;
     }
     .subtitle {
+        h1 {
+            font-size: 30px;
+        }
         h2 {
             font-size: 25px;
         }
@@ -462,6 +465,10 @@ table {
             margin-top: 50px;
         }
     }
+    .smallhide {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 768px) {

@@ -437,6 +437,9 @@ table img {
   .box-2 {
     margin-left: 0px;
   }
+  .subtitle h1 {
+    font-size: 30px;
+  }
   .subtitle h2 {
     font-size: 25px;
   }
@@ -479,6 +482,9 @@ table img {
   }
   .nav-nav-bar .nav-align {
     margin-top: 50px;
+  }
+  .smallhide {
+    display: none;
   }
 }
 
