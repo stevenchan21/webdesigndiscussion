@@ -1,0 +1,622 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.container {
+  width: 1024px;
+}
+
+.header-container {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-container img {
+  width: 100%;
+  height: auto;
+}
+
+.header-container h1 {
+  padding-top: 10px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.myprofile {
+  background-color: #ed2541;
+  margin-top: 10px;
+}
+
+.myprofile img {
+  width: 50px;
+  height: 50px;
+}
+
+.modal-body {
+  background-color: #ed2541;
+}
+
+.modal-body p {
+  font-size: 20px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav-nav-bar {
+  display: block;
+  z-index: 1;
+  height: 100px;
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ed2541, #A73333);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ed2541, #A73333);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ed2541, #A73333);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ed2541, #A73333);
+  /* Standard syntax */
+}
+
+.nav-nav-bar .nav-align {
+  margin-top: 50px;
+}
+
+.nav-nav-bar .nav-align a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+}
+
+#myCarousel {
+  margin-top: 0px;
+  display: block;
+  padding-top: 0px;
+}
+
+#myCarousel .carousel-indicators li {
+  border: 1px solid #ed2541;
+}
+
+#myCarousel .carousel-indicators .active {
+  background-color: #ed2541;
+}
+
+#myCarousel .carousel-inner .item > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.layout {
+  margin-left: 90px;
+}
+
+.layout .box {
+  text-align: center;
+  display: inline-block;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  background: white;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white 40%, #ed2541);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white 40%, #ed2541);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white 40%, #ed2541);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white 40%, #B40A0A);
+  /* Standard syntax */
+}
+
+.layout .box img {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.layout .box h3 {
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.layout .box p {
+  font-size: 16px;
+  color: white;
+}
+
+.layout .box a:link {
+  color: black;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.subtitle h1 {
+  font-family: calibri;
+  margin-bottom: 50px;
+  margin-top: 70px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ed2541;
+}
+
+#changetotime {
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+  color: lightgrey;
+  background: black;
+  /* For browsers that do not support gradients */
+}
+
+.box-2 {
+  margin-top: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: white;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white 40%, #ed2541);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white 40%, #ed2541);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white 40%, #ed2541);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white 40%, #B40A0A);
+  /* Standard syntax */
+}
+
+.box-2 a:link {
+  color: black;
+}
+
+.box-2 h3 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.box-2 img {
+  width: 100%;
+  text-align: center;
+}
+
+.box-2 p {
+  color: white;
+  font-size: 16px;
+}
+
+.progress-bar-navyblue {
+  background-color: navy blue;
+}
+
+.progress-bar-green {
+  background-color: #49A165;
+}
+
+.nav-tabs a {
+  color: #ed2541;
+  font-size: 20px;
+}
+
+.tab-pane {
+  font-size: 18px;
+}
+
+.table-spacing {
+  background-color: black;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid lightgrey;
+  padding: 20px;
+}
+
+table td {
+  text-align: center;
+}
+
+table img {
+  width: 50px;
+  height: auto;
+}
+
+.panel-body a {
+  color: grey;
+}
+
+.fix {
+  top: 330px;
+  width: 25%;
+  max-height: 500px;
+  position: fixed;
+  z-index: 1;
+}
+
+/*Variable class name*/
+.nopadding {
+  padding: 0px !important;
+}
+
+.spcolor {
+  color: #ed2541;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+.padding-left {
+  padding-left: 180px;
+}
+
+.padding-right {
+  padding-right: 180px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.border-top {
+  border-top: 3px dashed lightgrey;
+}
+
+@media screen and (min-width: 320px) {
+  .chartspacing {
+    padding-left: 20px;
+    padding-right: 160px;
+  }
+  .chartspacing h4 {
+    text-align: justify;
+    color: #ed2541;
+  }
+  .chartspacing .chart1 {
+    border: 1px solid lightgrey;
+    height: 300px;
+    padding: 0px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  .chartspacing .chart1 .figure1 {
+    height: 180px;
+    background-color: blue;
+    margin-top: 120px;
+  }
+  .chartspacing .chart1 .figure2 {
+    height: 240px;
+    background-color: red;
+    margin-top: 60px;
+  }
+  .chartspacing .chart1 .figure3 {
+    height: 246px;
+    background-color: orange;
+    margin-top: 54px;
+  }
+  .chartspacing .chart1 .figure4 {
+    height: 255px;
+    background-color: green;
+    margin-top: 45px;
+  }
+  .chartspacing .chart1 .figureVA1 {
+    height: 90px;
+    background-color: blue;
+    margin-top: 210px;
+  }
+  .chartspacing .chart1 .figureVA2 {
+    height: 105px;
+    background-color: red;
+    margin-top: 195px;
+  }
+  .chartspacing .chart1 .figureVA3 {
+    height: 180px;
+    background-color: orange;
+    margin-top: 120px;
+  }
+  .chartspacing .chart1 .figureVA4 {
+    height: 210px;
+    background-color: green;
+    margin-top: 90px;
+  }
+  .chartspacing .chart1 .figureLP1 {
+    height: 240px;
+    background-color: blue;
+    margin-top: 60px;
+  }
+  .chartspacing .chart1 .figureLP2 {
+    height: 195px;
+    background-color: red;
+    margin-top: 105px;
+  }
+  .chartspacing .chart1 .figureLP3 {
+    height: 210px;
+    background-color: orange;
+    margin-top: 90px;
+  }
+  .chartspacing .chart1 .figureLP4 {
+    height: 255px;
+    background-color: green;
+    margin-top: 45px;
+  }
+  .chartspacing .chart1 .figureR1 {
+    height: 120px;
+    background-color: blue;
+    margin-top: 180px;
+  }
+  .chartspacing .chart1 .figureR2 {
+    height: 210px;
+    background-color: red;
+    margin-top: 90px;
+  }
+  .chartspacing .chart1 .figureR3 {
+    height: 249px;
+    background-color: orange;
+    margin-top: 51px;
+  }
+  .chartspacing .chart1 .figureR4 {
+    height: 270px;
+    background-color: green;
+    margin-top: 30px;
+  }
+  .chartspacing .chart1 .figureLS1 {
+    height: 210px;
+    background-color: blue;
+    margin-top: 90px;
+  }
+  .chartspacing .chart1 .figureLS2 {
+    height: 240px;
+    background-color: red;
+    margin-top: 60px;
+  }
+  .chartspacing .chart1 .figureLS3 {
+    height: 240px;
+    background-color: orange;
+    margin-top: 60px;
+  }
+  .chartspacing .chart1 .figureLS4 {
+    height: 285px;
+    background-color: green;
+    margin-top: 15px;
+  }
+  .chartspacing .chart1 .figureC1 {
+    height: 180px;
+    background-color: blue;
+    margin-top: 120px;
+  }
+  .chartspacing .chart1 .figureC2 {
+    height: 210px;
+    background-color: red;
+    margin-top: 90px;
+  }
+  .chartspacing .chart1 .figureC3 {
+    height: 195px;
+    background-color: orange;
+    margin-top: 105px;
+  }
+  .chartspacing .chart1 .figureC4 {
+    height: 210px;
+    background-color: green;
+    margin-top: 90px;
+  }
+  .padding-left {
+    padding-left: 30px;
+  }
+  .padding-right {
+    padding-right: 30px;
+  }
+  .content p {
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .box-2 {
+    margin-left: 0px;
+  }
+  .subtitle h2 {
+    font-size: 25px;
+  }
+  .subtitle h3 {
+    font-size: 16px;
+  }
+  .layout .logo {
+    margin-bottom: 20px;
+  }
+  .text {
+    margin-left: 0px;
+  }
+  .text p {
+    text-align: justify;
+  }
+  .no-padding {
+    padding: 0px;
+  }
+  .nav-nav-bar .nav-align {
+    margin-top: 10px;
+  }
+  .nav-nav-bar .nav-align h1 {
+    font-size: 20px;
+  }
+  .myprofile {
+    display: none;
+  }
+  .layout {
+    margin-left: 0px;
+  }
+  .layout .box {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .text p {
+    font-size: 16px;
+  }
+  .nav-nav-bar .nav-align {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subtitle h2 {
+    font-size: 30px;
+  }
+  .subtitle h3 {
+    font-size: 20px;
+  }
+  .layout .logo {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+  .layout .logo img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .padding-left {
+    padding-left: 180px;
+  }
+  .padding-right {
+    padding-right: 180px;
+  }
+  .layout .logo {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .fix {
+    width: 25%;
+  }
+  .comparison-container {
+    float: right;
+  }
+  .shift-spacing {
+    margin-left: 220px;
+  }
+  .table-container {
+    margin-left: 0px;
+  }
+  .layout .logo {
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+  }
+  .box-2 {
+    margin-left: 310px;
+  }
+  .header-container h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  .text {
+    padding-left: 0px;
+    margin-left: 20px;
+  }
+  .text h3 {
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .layout {
+    margin-left: 100px;
+  }
+  .layout .box {
+    margin-bottom: 0px;
+  }
+  .myprofile {
+    display: inline-block;
+    margin-left: 8%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fix {
+    width: 20%;
+    margin-left: 30px;
+  }
+  .chartspacing {
+    padding-left: 135px;
+    padding-right: 60px;
+  }
+  .table-container {
+    margin-left: 120px;
+  }
+  .layout .logo {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+  .myprofile {
+    margin-left: 11%;
+  }
+  .text {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .box-2 {
+    margin-left: 30%;
+  }
+  .layout {
+    margin-left: 150px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .header-container h1 {
+    font-size: 30px;
+  }
+  .box-2 {
+    margin-left: 550px;
+  }
+  .text {
+    margin-left: 50px;
+  }
+  .myprofile {
+    margin-left: 15%;
+    margin-top: 25px;
+  }
+  .layout {
+    margin-left: 200px;
+  }
+  .fix {
+    width: 15%;
+  }
+  .big-container {
+    margin-left: 350px;
+  }
+}

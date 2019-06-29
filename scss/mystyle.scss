@@ -1,0 +1,620 @@
+$sp-red: #ed2541;
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: white;
+}
+.container {
+    width: 1024px;
+}
+
+.header-container{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    img {
+        width: 100%;
+        height:auto;
+    }
+    h1 {
+        padding-top: 10px;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        text-align: left;
+        font-family:"Times New Roman", Times, serif;
+    }
+}
+.myprofile {
+    background-color: $sp-red;
+    margin-top: 10px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.modal-body {
+    background-color: $sp-red;
+    p {
+        font-size: 20px;
+        color: white;
+        font-family:"Times New Roman", Times, serif;
+    }
+}
+.nav-nav-bar{
+    display: block;
+    z-index: 1;
+    height: 100px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($sp-red, #A73333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($sp-red, #A73333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($sp-red, #A73333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($sp-red, #A73333); /* Standard syntax */
+    .nav-align {
+        margin-top: 50px;
+        a {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            padding-right:30px;
+        }
+    }
+}
+
+#myCarousel {
+    margin-top: 0px;
+    display: block;
+    padding-top: 0px;
+    .carousel-indicators{
+        li {
+            border: 1px solid $sp-red;
+        }
+    }
+    .carousel-indicators .active {
+        background-color: $sp-red;
+    }
+    .carousel-inner {
+        .item > img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+    }
+}
+.layout {
+    margin-left: 90px;
+    .box{
+        text-align: center;
+        display: inline-block;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+
+        background: white; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(white 40%, $sp-red); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(white 40%, $sp-red); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(white 40%, $sp-red); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(white 40%, #B40A0A); /* Standard syntax */
+        img {
+            // background-size: cover;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-weight: bold;
+            text-align: center;
+            font-family:"Times New Roman", Times, serif;
+            color: black;
+        }
+        p {
+            font-size: 16px;
+            color: white;
+        }
+        a:link {
+            color: black;
+        }
+    }
+}
+.subtitle {
+    text-align: center;
+    h1 {
+        font-family: calibri;
+        margin-bottom: 50px;
+        margin-top: 70px;
+        font-size: 48px;
+        font-weight: bold;
+        color: $sp-red;
+    }
+}
+#changetotime {
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: lightgrey;
+    background: black; /* For browsers that do not support gradients */
+    // background: -webkit-linear-gradient($sp-red, #A73333); /* For Safari 5.1 to 6.0 */
+    // background: -o-linear-gradient($sp-red, #A73333); /* For Opera 11.1 to 12.0 */
+    // background: -moz-linear-gradient($sp-red, #A73333); /* For Firefox 3.6 to 15 */
+    // background: linear-gradient(lightgrey, black 90%); /* Standard syntax */
+}
+.box-2 {
+    margin-top: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white 40%, $sp-red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white 40%, $sp-red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white 40%, $sp-red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white 40%, #B40A0A); /* Standard syntax */
+    a:link {
+        color: black;
+    }
+    h3 {
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif;
+    }
+    img {
+        width: 100%;
+        text-align: center;
+    }
+    p {
+        color: white;
+        font-size: 16px;
+    }
+}
+.progress-bar-navyblue {
+    background-color: navy blue;
+}
+
+.progress-bar-green {
+    background-color: #49A165;
+}
+.nav-tabs {
+    a {
+        color: $sp-red;
+        font-size: 20px;
+    }
+}
+.tab-pane {
+    font-size: 18px;
+}
+.table-spacing {
+    background-color: black;
+    color: white;
+}
+
+table, th, td{
+    border: 1px solid lightgrey;
+    // padding-left: 20px;
+    // padding-right: 20px;
+    padding: 20px;
+}
+table {
+    td {
+        text-align: center;
+    }
+    img {
+        width: 50px;
+        height: auto;
+
+    }
+}
+
+.panel-body {
+    a {
+        color: grey;
+    }
+}
+.fix {
+    top: 330px;
+    width: 25%;
+    max-height: 500px;
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+/*Variable class name*/
+.nopadding {
+    padding: 0px !important;
+}
+.spcolor {
+    color: $sp-red;
+}
+.textalign {
+    text-align: center;
+}
+.textjustify {
+    text-align: justify;
+}
+.padding-left {
+    padding-left: 180px;
+}
+.padding-right {
+    padding-right: 180px;
+}
+.margin-top {
+    margin-top: 50px;
+}
+.border-top {
+    border-top: 3px dashed lightgrey;
+}
+
+
+@media screen and (min-width: 320px) {
+    .chartspacing {
+        padding-left: 20px;
+        padding-right: 160px;
+        h4 {
+            text-align: justify;
+            color: $sp-red;
+        }
+        .chart1 {
+            border: 1px solid lightgrey;
+            height: 300px;
+            padding: 0px;
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            .figure1 {
+                height: 180px;
+                background-color: blue;
+                margin-top: 120px;
+            }
+            .figure2 {
+                height: 240px;
+                background-color: red;
+                margin-top: 60px;
+            }
+            .figure3 {
+                height: 246px;
+                background-color: orange;
+                margin-top: 54px;
+            }
+            .figure4 {
+                height: 255px;
+                background-color: green;
+                margin-top: 45px;
+            }
+            .figureVA1 {
+                height: 90px;
+                background-color: blue;
+                margin-top: 210px;
+            }
+            .figureVA2 {
+                height: 105px;
+                background-color: red;
+                margin-top: 195px;
+            }
+            .figureVA3 {
+                height: 180px;
+                background-color: orange;
+                margin-top: 120px;
+            }
+            .figureVA4 {
+                height: 210px;
+                background-color: green;
+                margin-top: 90px;
+            }
+            .figureLP1 {
+                height: 240px;
+                background-color: blue;
+                margin-top: 60px;
+            }
+            .figureLP2 {
+                height: 195px;
+                background-color: red;
+                margin-top: 105px;
+            }
+            .figureLP3 {
+                height: 210px;
+                background-color: orange;
+                margin-top: 90px;
+            }
+            .figureLP4 {
+                height: 255px;
+                background-color: green;
+                margin-top: 45px;
+            }
+            .figureR1 {
+                height: 120px;
+                background-color: blue;
+                margin-top: 180px;
+            }
+            .figureR2 {
+                height: 210px;
+                background-color: red;
+                margin-top: 90px;
+            }
+            .figureR3 {
+                height: 249px;
+                background-color: orange;
+                margin-top: 51px;
+            }
+            .figureR4 {
+                height: 270px;
+                background-color: green;
+                margin-top: 30px;
+            }
+            .figureLS1 {
+                height: 210px;
+                background-color: blue;
+                margin-top: 90px;
+            }
+            .figureLS2 {
+                height: 240px;
+                background-color: red;
+                margin-top: 60px;
+            }
+            .figureLS3 {
+                height: 240px;
+                background-color: orange;
+                margin-top: 60px;
+            }
+            .figureLS4 {
+                height: 285px;
+                background-color: green;
+                margin-top: 15px;
+            }
+            .figureC1 {
+                height: 180px;
+                background-color: blue;
+                margin-top: 120px;
+            }
+            .figureC2 {
+                height: 210px;
+                background-color: red;
+                margin-top: 90px;
+            }
+            .figureC3 {
+                height: 195px;
+                background-color: orange;
+                margin-top: 105px;
+            }
+            .figureC4 {
+                height: 210px;
+                background-color: green;
+                margin-top: 90px;
+            }
+        }
+    }
+    .padding-left {
+        padding-left: 30px;
+    }
+    .padding-right {
+        padding-right: 30px;
+    }
+    .content {
+        p {
+            font-size: 18px;
+            font-family:"Times New Roman", Times, serif;
+        }
+    }
+    .box-2 {
+        margin-left: 0px;
+    }
+    .subtitle {
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+    }
+    .layout {
+        .logo {
+            margin-bottom: 20px;
+        }
+    }
+    .text {
+        margin-left: 0px;
+        p {
+            text-align: justify;
+        }
+    }
+    .no-padding {
+        padding: 0px;
+    }
+    .nav-nav-bar {
+        .nav-align {
+            margin-top: 10px;
+            h1 {
+                font-size: 20px;
+            }
+        }
+    }
+    .myprofile{
+        display: none;
+    }
+    .layout {
+        margin-left: 0px;
+        .box {
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+@media screen and (min-width: 480px) {
+    .text {
+        // padding-left: 150px;
+        p {
+            font-size: 16px;
+        }
+    }
+    .nav-nav-bar {
+        .nav-align {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .subtitle {
+        h2 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .layout {
+        .logo {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+            img{
+                width: 200px;
+                height: auto;
+            }
+        }
+    }
+
+}
+@media screen and (min-width: 990px) {
+    .padding-left {
+        padding-left: 180px;
+    }
+    .padding-right {
+        padding-right: 180px;
+    }
+    .layout {
+        .logo {
+            margin-left: 100px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+        }
+    }
+}
+@media screen and (min-width: 1000px) {
+    .fix {
+        width: 25%;
+    }
+    .comparison-container {
+        float: right;
+    }
+    .shift-spacing {
+        margin-left: 220px;
+    }
+    .table-container {
+            margin-left: 0px;
+    }
+    .layout {
+        .logo {
+            margin-left: 20px;
+            margin-right: 50px;
+            margin-bottom: 0px;
+        }
+    }
+    .box-2 {
+        margin-left: 310px;
+    }
+    .header-container {
+        h1 {
+            font-size: 20px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+    }
+    .text {
+        padding-left: 0px;
+        margin-left: 20px;
+        h3 {
+            margin-bottom: 30px;
+        }
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .layout {
+        margin-left: 100px;
+        .box {
+            margin-bottom: 0px;
+        }
+    }
+    .myprofile{
+        display: inline-block;
+        margin-left: 8%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .fix {
+        width: 20%;
+        margin-left: 30px;
+    }
+    .chartspacing {
+        padding-left: 135px;
+        padding-right: 60px;
+    }
+    .table-container {
+            margin-left: 120px;
+    }
+    // .table-container {
+    //         margin-left: 250px;
+    // }
+    .layout {
+        .logo {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+        }
+    }
+    .myprofile{
+        margin-left: 11%;
+    }
+    .text {
+        margin-left: 120px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    .box-2 {
+        margin-left: 30%;
+    }
+    .layout {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .header-container {
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .box-2 {
+        margin-left: 550px;
+    }
+    .text {
+        margin-left: 50px;
+    }
+    .myprofile {
+        margin-left: 15%;
+        margin-top: 25px;
+    }
+    .layout {
+        margin-left: 200px;
+    }
+    .fix {
+        width: 15%;
+    }
+    .big-container {
+        margin-left: 350px;
+    }
+}
