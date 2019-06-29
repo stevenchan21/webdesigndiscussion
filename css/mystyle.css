@@ -18,7 +18,7 @@ html, body {
 }
 
 .header-container img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
@@ -536,7 +536,7 @@ table img {
     margin-left: 310px;
   }
   .header-container h1 {
-    font-size: 20px;
+    font-size: 30px;
     padding-bottom: 10px;
     padding-top: 5px;
   }
