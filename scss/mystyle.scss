@@ -260,6 +260,7 @@ table {
     .chartspacing {
         padding-left: 20px;
         padding-right: 160px;
+        //width: 600px;
         h4 {
             text-align: justify;
             color: $sp-red;
@@ -451,6 +452,28 @@ table {
             margin-bottom: 20px;
         }
     }
+    .tablecomparewidth {
+        width: 80px;
+        th {
+            width: 20px;
+            padding: 5px;
+            font-size: 14px;
+        }
+        td {
+            width: 20px;
+            padding: 5px;
+            img{
+                width: 30px;
+            }
+        }
+    }
+    .smallhide {
+        display: none;
+    }
+    .chartspacing {
+        padding-right:0px;
+    }
+
 
 }
 @media screen and (min-width: 480px) {
@@ -467,6 +490,17 @@ table {
     }
     .smallhide {
         display: none;
+    }
+    .tablecomparewidth {
+        //width: 350px;
+        th {
+            width: 20px;
+            padding: 39px;
+        }
+        td {
+            width: 20px;
+            padding: 39px;
+        }
     }
 
 }
@@ -491,6 +525,20 @@ table {
             }
         }
     }
+    .chartspacing {
+        width: 100%;
+    }
+    .tablecomparewidth {
+        //width: 350px;
+        th {
+            width: 20px;
+            padding: 40px;
+        }
+        td {
+            width: 20px;
+            padding: 40px;
+        }
+    }
 
 }
 @media screen and (min-width: 990px) {
@@ -509,11 +557,15 @@ table {
     }
 }
 @media screen and (min-width: 1000px) {
+    .smallhide {
+        display: block;
+    }
     .fix {
         width: 25%;
     }
     .comparison-container {
         float: right;
+        padding-right: 350px;
     }
     .shift-spacing {
         margin-left: 220px;
@@ -565,11 +617,11 @@ table {
         margin-left: 30px;
     }
     .chartspacing {
-        padding-left: 135px;
+        padding-left: 0px;
         padding-right: 60px;
     }
     .table-container {
-            margin-left: 120px;
+            // margin-left: 120px;
     }
     // .table-container {
     //         margin-left: 250px;

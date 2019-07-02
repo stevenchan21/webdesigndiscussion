@@ -474,6 +474,27 @@ table img {
     margin-left: 0px;
     margin-bottom: 20px;
   }
+  .tablecomparewidth {
+    width: 80px;
+  }
+  .tablecomparewidth th {
+    width: 20px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .tablecomparewidth td {
+    width: 20px;
+    padding: 5px;
+  }
+  .tablecomparewidth td img {
+    width: 30px;
+  }
+  .smallhide {
+    display: none;
+  }
+  .chartspacing {
+    padding-right: 0px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -485,6 +506,14 @@ table img {
   }
   .smallhide {
     display: none;
+  }
+  .tablecomparewidth th {
+    width: 20px;
+    padding: 39px;
+  }
+  .tablecomparewidth td {
+    width: 20px;
+    padding: 39px;
   }
 }
 
@@ -504,6 +533,17 @@ table img {
     width: 200px;
     height: auto;
   }
+  .chartspacing {
+    width: 100%;
+  }
+  .tablecomparewidth th {
+    width: 20px;
+    padding: 40px;
+  }
+  .tablecomparewidth td {
+    width: 20px;
+    padding: 40px;
+  }
 }
 
 @media screen and (min-width: 990px) {
@@ -521,11 +561,15 @@ table img {
 }
 
 @media screen and (min-width: 1000px) {
+  .smallhide {
+    display: block;
+  }
   .fix {
     width: 25%;
   }
   .comparison-container {
     float: right;
+    padding-right: 350px;
   }
   .shift-spacing {
     margin-left: 220px;
@@ -574,11 +618,8 @@ table img {
     margin-left: 30px;
   }
   .chartspacing {
-    padding-left: 135px;
+    padding-left: 0px;
     padding-right: 60px;
-  }
-  .table-container {
-    margin-left: 120px;
   }
   .layout .logo {
     margin-left: 20px;
